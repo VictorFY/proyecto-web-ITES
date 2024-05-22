@@ -1,0 +1,20 @@
+body{
+    background: url(../img/Fondo_texturas.jpg);
+}
+.cabecera{
+    display: flex;
+    padding: 10px;
+    background: rgba(89, 181, 209, 0.459);
+    justify-content: space-between;
+}
+.d-flex{
+    width: 400px;
+    align-items: center;
+}
+.card-group{
+    margin: 20px;
+    margin-top: 60px;
+}
+p{
+    text-align: justify;
+}

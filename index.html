@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Instituto Tecnicos de Estudios Superior</title>
+</head>
+
+<body>
+  <!-- Cabezera -->
+  <div class="cabecera">
+    <a href="#">
+      <img src="img/logo.png" alt="" width="100">
+    </a>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+      <button class="btn btn-outline-primary" type="submit">Search</button>
+    </form>
+  </div>
+
+  <!-- Navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Oferta académica</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Contabilidad </a></li>
+              <li><a class="dropdown-item" href="#">Sistemas Informáticos</a></li>
+              <li><a class="dropdown-item" href="#">Secretariado Ejecutivo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Seminarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inscripción</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Separador -->
+  <div id="separator-ribbon">
+    <div class="content bg-primary"></div>
+  </div><br>
+
+  <!-- Carrusel -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/Sistemas.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Conta.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Secretariado1.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Tarjetas -->
+  <div class="card-group">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card  w-100 card-border mb-5">
+          <img src="img/Conta.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Contabilidad</h4>
+            <p class="card-text">La contabilidad es el proceso de resgistrar, clasificar y resumir de manera sistemática
+              todas las transacciones financieras de una empresa o persona.</p>
+            <p>Estos se haces para entender claramente la salud financiera y poder tomar decisiones infomadas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card w-100 card-border mb-5">
+          <img src="img/Secretariado1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Secretariado Ejecutivo</h4>
+            <p class="card-text">El perfil del secretariado ejecutivo implica ser un apoyo indispensable para el
+              ejecutivo o director, proporcionando apoyo administrativo y de oficina, manteniendo la agenda y
+              organizando reuniones y eventos, mientras que también se espera que tenga habilidades administrativas, de
+              comunicación y de gestión de tiempo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card  w-100 card-border mb-5">
+          <img src="img/Sistemas.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Sistemas Informaticos</h4>
+            <p class="card-text">El personal en Sistemas informático se refiere a las personas que se encargan de
+              diseñar, implementar, mantener y mejorar el sistema informático de una empresa o negocio que lo requiera.
+            </p>
+            <p>Estos profesionales incluyen desarrollar, analizar, administrar los sistemas y otros.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bd-footer py-3 mt-5 bg-light">
+    <div class="container py-3">
+      <div class="row">
+        <!--seccion1-->
+        <div class="col-lg-4 mb-1">
+          <span class="fs-5">ITES</span>
+          <ul class="list-unstyled small text-muted">
+            <li>
+              Instituto Tecnico de Estudios Superiores
+            </li>
+            <li>
+              Formando profecionales en las areas tecnicas y comerciales a niveles competitivos
+            </li>
+          </ul>
+        </div>
+        <!--seccion2-->
+        <div class="col-lg-4 mb-1">
+          <span class="fs-5">Nosotros</span>
+          <ul class="list-unstyled small text-muted">
+            <li>
+              El Instituto Tecnico de Estudios Superiores (ITES).
+            </li>
+            <li>
+              tiene como objetivo fundamental generar procesos de aprendizaje y autoaprendizaje flexibles e innovadores,
+              a través del diseño de estrategias educativas y de comunicación que incorporen el uso de la tecnología.
+            </li>
+          </ul>
+        </div>
+        <!--seccion3-->
+        <div class="col-lg-4 mb-1">
+          <span class="fs-5">Dirección</span>
+          <ul class="list-unstyled small text-muted">
+            <li>
+              Telefonos: 12345678. E-mail: informaites@gmail.com
+            </li>
+            <li>
+              Av. Villazón Nº1995, Plaza del Bicentenario - Zona Central
+            </li>
+            <li>
+              Copyright 2024
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <!--script src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script-->
+</body>
+
+</html>
