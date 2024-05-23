@@ -15,6 +15,40 @@ body{
     margin: 20px;
     margin-top: 60px;
 }
+.card-group-extra{
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.form-border{
+    background: rgba(127, 219, 255, 0.37);
+    padding: 10px;
+    border: solid 5px rgb(196, 195, 195);
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
 p{
     text-align: justify;
+}
+.reg-form{
+    text-align: center;
+    color: #9515eb;
+}
+.separador{
+    text-align: center;
+    color: #1c0b80;
+    background-color: #b091c5;
+    border-radius: 80px;
+    width: auto;
+}
+.video-border{
+    border: solid 10px rgb(196, 195, 195);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.titulo-pag{
+    text-align: center;
+    color: #0c0fdd;
 }

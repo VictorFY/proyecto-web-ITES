@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <title>Instituto Tecnicos de Estudios Superior</title>
 </head>
 
@@ -15,7 +16,7 @@
   <!-- Cabezera -->
   <div class="cabecera">
     <a href="#">
-      <img src="img/logo.png" alt="" width="100">
+      <img src="/img/logo.png" alt="" width="100">
     </a>
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -39,9 +40,9 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">Oferta académica</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Contabilidad </a></li>
-              <li><a class="dropdown-item" href="#">Sistemas Informáticos</a></li>
-              <li><a class="dropdown-item" href="#">Secretariado Ejecutivo</a></li>
+              <li><a class="dropdown-item" href="contabilidad.html">Contabilidad </a></li>
+              <li><a class="dropdown-item" href="sistemas.html">Sistemas Informáticos</a></li>
+              <li><a class="dropdown-item" href="secretariado.html">Secretariado Ejecutivo</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -64,13 +65,13 @@
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/Sistemas.png" class="d-block w-100" alt="...">
+        <img src="/img/Conta1.png" class="d-block w-100" alt="contabilidad">
       </div>
       <div class="carousel-item">
-        <img src="img/Conta.png" class="d-block w-100" alt="...">
+        <img src="/img/Secretariado1.png" class="d-block w-100" alt="secretariado">
       </div>
       <div class="carousel-item">
-        <img src="img/Secretariado1.png" class="d-block w-100" alt="...">
+        <img src="/img/Sistemas.png" class="d-block w-100" alt="sistemas">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -88,9 +89,9 @@
     <div class="row">
       <div class="col-sm">
         <div class="card  w-100 card-border mb-5">
-          <img src="img/Conta.png" class="card-img-top" alt="...">
+          <img src="/img/Conta1.png" class="card-img-top" alt="contabilidad">
           <div class="card-body">
-            <h4 class="card-title">Contabilidad</h4>
+            <h4 class="card-title text-center">Contabilidad</h4>
             <p class="card-text">La contabilidad es el proceso de resgistrar, clasificar y resumir de manera sistemática
               todas las transacciones financieras de una empresa o persona.</p>
             <p>Estos se haces para entender claramente la salud financiera y poder tomar decisiones infomadas.</p>
@@ -99,9 +100,9 @@
       </div>
       <div class="col-sm">
         <div class="card w-100 card-border mb-5">
-          <img src="img/Secretariado1.png" class="card-img-top" alt="...">
+          <img src="/img/Secretariado1.png" class="card-img-top" alt="secretariado">
           <div class="card-body">
-            <h4 class="card-title">Secretariado Ejecutivo</h4>
+            <h4 class="card-title text-center">Secretariado Ejecutivo</h4>
             <p class="card-text">El perfil del secretariado ejecutivo implica ser un apoyo indispensable para el
               ejecutivo o director, proporcionando apoyo administrativo y de oficina, manteniendo la agenda y
               organizando reuniones y eventos, mientras que también se espera que tenga habilidades administrativas, de
@@ -111,9 +112,9 @@
       </div>
       <div class="col-sm">
         <div class="card  w-100 card-border mb-5">
-          <img src="img/Sistemas.png" class="card-img-top" alt="...">
+          <img src="/img/Sistemas.png" class="card-img-top" alt="sistema">
           <div class="card-body">
-            <h4 class="card-title">Sistemas Informaticos</h4>
+            <h4 class="card-title text-center">Sistemas Informaticos</h4>
             <p class="card-text">El personal en Sistemas informático se refiere a las personas que se encargan de
               diseñar, implementar, mantener y mejorar el sistema informático de una empresa o negocio que lo requiera.
             </p>
@@ -123,6 +124,89 @@
       </div>
     </div>
   </div>
+
+  <div class="separador">
+    <h2>Material Extra</h2>
+    <h4>En pos de la educación y conociminto</h4>
+  </div>
+
+  <div class="card-group-extra">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card w-75 card-border mb-5">
+          <a href="https://www.impuestos.gob.bo/page/362">
+            <img src="/img/impuestos.jpg" class="card-img-top" alt="impuestos">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title text-center">Cursos gratuitos de impuestos</h4>
+            <p>
+              Cursos gratuitos que imparte el sistema de impuestos nacionales de Bolivia.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="card w-100 video-border">
+          <video src="/img/video_corto_1.mp4" controls></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Formulario -->
+  <div class="form-border mb-5 col-12">
+    <h2 class="reg-form">Registro de Pre-Inscripción</h2>
+    <form class="row g-3 needs-validation" validate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Nombre(s):</label>
+        <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Apellidos:</label>
+        <input type="text" class="form-control" id="validationCustom02" placeholder="Apellidos">
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">E-mail</label>
+        <div class="input-group has-validation">
+          <input type="email" class="form-control" id="validationCustomUsername" placeholder="ejemplo@ejemplo.com"
+            required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <select class="form-select form-select-auto" aria-label="Default select example" required>
+          <option selected>Selecciones una carrera</option>
+          <option value="1">Contabilidad</option>
+          <option value="2">Secretariado ejecutivo</option>
+          <option value="3">Sistemas informaticos</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Registrarme
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Emviar</button>
+      </div>
+    </form>
+  </div>
+
 
   <!-- Footer -->
   <footer class="bd-footer py-3 mt-5 bg-light">
